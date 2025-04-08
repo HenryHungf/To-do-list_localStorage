@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo_list</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="start-container">
+        <div class="details">
+          <h1>To-do-List</h1>
+          <p>Cố lên nào</p>
+          <div id="proressBar">
+            <div id="progress"></div>
+          </div>
+        </div>
+
+        <div class="start-number">
+          <p id="numbers">0/0</p>
+        </div>
+      </div>
+
+      <form action="">
+        <input type="text" id="taskInput" placeholder="Write your task" />
+        <button id="newTask">+</button>
+      </form>
+      <ul id="task-list"></ul>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
